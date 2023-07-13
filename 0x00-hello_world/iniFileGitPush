@@ -1,0 +1,15 @@
+#!/bin/bash
+echo "Enter fileName"
+read fileName
+touch ~/alx-system_engineering-devops/0x03-shell_variables_expansions/$fileName
+echo "#!/bin/bash" > $fileName
+chmod u+x $fileName
+echo "Enter Task Answer"
+read taskAnswer
+echo "$taskAnswer" >> $fileName
+echo "Enter commit"
+read commit
+echo "$commit" >> README.md
+git add README.md "$fileName"
+git commit -m "$commit"
+git push
