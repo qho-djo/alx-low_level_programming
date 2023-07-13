@@ -5,3 +5,4 @@ Assembler
 C is fun
 Puts
 Printf
+Size
