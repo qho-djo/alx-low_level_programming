@@ -7,3 +7,4 @@ Puts
 Printf
 Size
 Intel
+Quote
