@@ -9,16 +9,13 @@
 */
 int main(void)
 {
+	char i = 'a';
 
-	char letter[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i = 0;
-
-	while (i < 26)
+	for (i; i <= 'z'; i++)
 	{
-		if (i != 4 && i != 16)
+		if (i != 'e' && i != 'q')
 		{
-		putchar(letter[i]);
-		i++;
+		putchar(i);
 		}
 	}
 	putchar('\n');
