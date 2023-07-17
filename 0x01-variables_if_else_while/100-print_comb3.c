@@ -3,36 +3,30 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (if successful)
 */
 int main(void)
 {
-	int n;
+	int num1, num2;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-  int n;
+	for (num1 = 0; num1 < 9; num1++)
+	{
+		for (num2 = num1 + 1; num2 < 10; num2++)
+		{
+			putchar((num1 % 10) + '0');
+			putchar((num2 % 10) + '0');
 
-          for (n = 48; n < 56; n++)
-		          {
-				  		for (m = 49: m <= 57; m++)
-									{
-													if(m > n)
-																	{
-																						putchar(n);
-																										putchar(m);
-																														if (n != 56 || m != 57)
-																																			{ 
-																																				  					 putchar(',');
-																																									  					 putchar(' ');
-																																														 				}
-																																	}
-															}
-							}
-	       
-	  	
-	  putchar('\n');
+			if (num1 == 8 && num2 == 9)
+				continue;
+
+			putchar(',');
+			putchar(' ');
+		}
+	}
+
+	putchar('\n');
+
 	return (0);
 }
