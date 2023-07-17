@@ -9,19 +9,14 @@
 */
 int main(void)
 {
-	int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	char a;
-	char A;
-	for (a = 'a' ; a <= 'z' ; a++)
+	char letter[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i = 0;
+
+	while (i < 52)
 	{
-		putchar(a);
-	}
-	for (A = 'A' ; A <= 'Z' ; A++)
-	{
-		putchar(A);
+		putchar(letter[i]);
+		i++;
 	}
 	putchar('\n');
 	return (0);
