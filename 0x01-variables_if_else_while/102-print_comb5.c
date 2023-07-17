@@ -13,28 +13,10 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	int i,j;
-	for (i = 0; i < 100; i++)
-	{
-		        for (j= 0; j < 100; j++)
-				        {
-						                for (i < j)
-									                {
-												                        putchar((i / 10) + 48);
-																		 putchar((i / 10) + 48);
-																		 			 putchar(' ');
-																					 			  putchar((i / 10) + 48);
-																								  			  putchar((i / 10) + 48);
-																											  		  		if (i != 98 || j != 99)
-																																			        {
-																																					                                         putchar(',');
-																																										                                          putchar(' ');
-																																															                                  }
-																															                        }
-								                }
-			        }
-}
+	
+	int num1;
+	int num2;
 
-putchar('\n');
+	for (num1 = 0; num1 < 100; num1++)
 	return (0);
 }
