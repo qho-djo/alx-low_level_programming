@@ -1,24 +1,20 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
 */
+
 int main(void)
 {
-	int n;
+	int d;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	int c = 0;
-	while (c < 10)
-	{
-		putchar(((char)(c + '0')));
-		c++;
-	}
+	for (d = '0'; d <= '9'; d++)
+		putchar(d);
 	putchar('\n');
+
 	return (0);
 }
