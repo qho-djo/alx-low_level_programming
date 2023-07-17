@@ -9,18 +9,16 @@
 */
 int main(void)
 {
-	int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	char alpha;
-	char a;
-	for (a = 'a'; a <= 'z'; a++)
+	char letter[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i = 0;
+
+	while (i < 26)
 	{
-		if ((a != 'q') && (a != 'e'))
+		if (i != 4 && i != 16)
 		{
-			alpha = a;
-			putchar(alpha);
+		putchar(letter[i]);
+		i++;
 		}
 	}
 	putchar('\n');
