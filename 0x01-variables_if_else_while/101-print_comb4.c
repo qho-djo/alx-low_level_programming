@@ -1,10 +1,12 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /*
  * main - Prints all combinations of three digits with,
  * and space followed by new line
  *
  * Return: returns 0
- */
+*/
 int main(void)
 {
 	int digit1, digit2, digit3;
