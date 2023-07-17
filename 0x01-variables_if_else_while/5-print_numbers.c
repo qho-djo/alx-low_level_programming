@@ -9,18 +9,8 @@
 */
 int main(void)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	int a = 0;
-	char y;
-	while (a < 10)
-	{
-		y = (char)(a + '0');
-		putchar(y);
-		a++;
-	}
-	printf("\n");
+	for (int i = 0; i < 10; i++)
+		printf("%d", i);
+	putchar('\n');
 	return (0);
 }
