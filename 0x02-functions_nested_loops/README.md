@@ -11,3 +11,4 @@ Is Alpha
 Sign
 Absolute Value
 Last Digit
+24 Hours
