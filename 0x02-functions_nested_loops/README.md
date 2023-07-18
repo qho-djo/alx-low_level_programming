@@ -8,3 +8,4 @@ Alphabet 10 Times
 Is Lower
 Is Lower
 Is Alpha
+Sign
