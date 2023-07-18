@@ -9,3 +9,4 @@ Is Lower
 Is Lower
 Is Alpha
 Sign
+Absolute Value
