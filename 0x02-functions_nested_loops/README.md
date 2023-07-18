@@ -12,3 +12,4 @@ Sign
 Absolute Value
 Last Digit
 24 Hours
+9 Times Table
