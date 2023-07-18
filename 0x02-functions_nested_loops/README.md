@@ -10,3 +10,4 @@ Is Lower
 Is Alpha
 Sign
 Absolute Value
+Last Digit
