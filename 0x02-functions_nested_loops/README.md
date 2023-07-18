@@ -7,3 +7,4 @@ Alphabet 10 Times
 Alphabet 10 Times
 Is Lower
 Is Lower
+Is Alpha
