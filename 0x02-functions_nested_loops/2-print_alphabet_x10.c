@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_alphabet - prints alphabet 10x  in lower case, followed by new line
+ * print_alphabet_x10 - print alphabet 10x  in lower case, followed by new line
  *
  * Return: Always 0.
  */
