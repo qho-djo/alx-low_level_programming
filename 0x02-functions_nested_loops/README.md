@@ -21,3 +21,4 @@ Print to 98
 100 Times Table
 Natural
 Fibonacci
+Fibonacci 3
