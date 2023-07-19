@@ -22,3 +22,4 @@ Print to 98
 Natural
 Fibonacci
 Fibonacci 3
+Fibonacci 4
