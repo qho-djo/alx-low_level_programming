@@ -19,3 +19,4 @@ Print to 98
 Print to 987
 Print to 98
 100 Times Table
+Natural
