@@ -1,2 +1,3 @@
 isupper
 all
+isdigit
