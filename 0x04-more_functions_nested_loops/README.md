@@ -11,3 +11,4 @@ I believe in numbers and signs
 Numbers constitute the only universal language
 Numbers constitute the only universal language
 The shortest distance between two points is a straight line
+I feel like I am diagonally parked in a parallel universe
