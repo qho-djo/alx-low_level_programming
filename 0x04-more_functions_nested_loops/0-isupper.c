@@ -16,6 +16,5 @@ int _isupper(int c)
 		if (c == alph)
 			return (1);
 	}
-	alph++;
 	return (0);
 }
