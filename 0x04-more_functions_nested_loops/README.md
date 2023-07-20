@@ -7,3 +7,4 @@ isupper
 isupper
 isupper
 isdigit
+I believe in numbers and signs
