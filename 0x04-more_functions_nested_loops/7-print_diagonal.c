@@ -3,6 +3,8 @@
 /**
  * print_diagonal - Draws a diagonal line on the terminal.
  * @n: Is the Placeholder.
+ *
+ * Return: void
  */
 
 void print_diagonal(int n)
@@ -15,7 +17,9 @@ void print_diagonal(int n)
 		for (; al < n; al++)
 		{
 			for (m = 0; m < al; m++)
+			{
 				_putchar(' ');
+			}
 		_putchar('\\');
 		_putchar('\n');
 		}
