@@ -10,14 +10,14 @@
 int _isupper(int c)
 {
 	char alph = 'A';
+	int al = 0;
 
 	for (; alph <= 'Z'; alph++)
 	{
 		if (c == alph)
 		{
-			return (1);
-			break;
+			al = 1;
 		}
 	}
-	return (0);
+	return (al);
 }
