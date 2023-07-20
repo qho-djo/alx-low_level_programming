@@ -6,3 +6,4 @@ The numbers speak for themselves
 isupper
 isupper
 isupper
+isdigit
