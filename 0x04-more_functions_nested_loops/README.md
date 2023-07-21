@@ -22,3 +22,4 @@ Fizz-Buzz
 Fizz-Buzz
 Triangles
 Prime Factor
+Numbers have life; they're not just symbols on paper
