@@ -20,3 +20,4 @@ You are so much sunshine in every square inch
 Fizz-Buzz
 Fizz-Buzz
 Fizz-Buzz
+Triangles
