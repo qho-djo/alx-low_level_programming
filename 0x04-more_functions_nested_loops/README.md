@@ -21,3 +21,4 @@ Fizz-Buzz
 Fizz-Buzz
 Fizz-Buzz
 Triangles
+Prime Factor
