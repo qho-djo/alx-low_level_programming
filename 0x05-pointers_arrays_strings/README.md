@@ -12,3 +12,4 @@ Winning is only half of it. Having fun is the other half
 Arrays are not pointers
 strcpy
 strcpy
+Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers
