@@ -4,3 +4,4 @@ memcpy
 strchr
 strspn
 strpbrk
+strstr
