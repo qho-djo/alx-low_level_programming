@@ -6,3 +6,4 @@ The best argument against democracy is a five-minute conversation with the avera
 Neither irony nor sarcasm is argument
 To infinity and beyond
 To infinity and beyond
+Minimal Number of Coins for Change
