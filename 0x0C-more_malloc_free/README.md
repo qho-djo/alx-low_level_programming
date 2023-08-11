@@ -5,3 +5,4 @@ string_nconcat
 _calloc
 _calloc
 array_range
+_realloc
