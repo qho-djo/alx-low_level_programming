@@ -5,7 +5,7 @@
 
 /**
  * _calloc - allocates memory for an arrray.
- * @memb: the array.
+ * @nmemb: the array.
  * @size: size in bytes of the array.
  *
  * Return: Null when size is 0 and when malloc ffails.
